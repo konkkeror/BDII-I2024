@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ModeloSupermercado" id="E1F46ADB-F4C7-B707-EABA-3FBCEFD5649E" version="3.5">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-01-24 23:18:59 UTC</createdTime>
+<ownerDesignName>ModeloSupermercado</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E1F46ADB-F4C7-B707-EABA-3FBCEFD5649E</designId>
+</OSDM_Design>

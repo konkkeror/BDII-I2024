@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E2412EC-3F4C-885F-D880-C37A7B409A3E" name="TBL_PRODUCTOS">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-01-24 23:20:01 UTC</createdTime>
+<ownerDesignName>ModeloSupermercado</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PRODUCTO" id="AE57747A-3B33-B8A9-ED7F-4FD9600C9F2E">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-01-24 23:23:25 UTC</createdTime>
+<ownerDesignName>ModeloSupermercado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="27338251-6076-F157-23A9-F1E2071B3257">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-01-24 23:23:25 UTC</createdTime>
+<ownerDesignName>ModeloSupermercado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO" id="93C84288-0F9F-C3A7-F8CF-D3F4395D3973">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-01-24 23:23:25 UTC</createdTime>
+<ownerDesignName>ModeloSupermercado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="294F92FD-7319-0958-6A60-3835996F066C" name="TBL_PRODUCTOS_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-01-24 23:23:25 UTC</createdTime>
+<ownerDesignName>ModeloSupermercado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE57747A-3B33-B8A9-ED7F-4FD9600C9F2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43F102D9-8BE7-4F39-E0B8-F0A01F25C9D8" name="TBL_PRODUCTOS_NOMBRE_IDX">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-01-24 23:29:21 UTC</createdTime>
+<ownerDesignName>ModeloSupermercado</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27338251-6076-F157-23A9-F1E2071B3257"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

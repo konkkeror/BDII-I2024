@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2B0B3E36-0462-D862-E845-6455C50A8742" containerWithKeyObject="DE5A55EA-D1FD-FFA5-B083-30BC918C2B2A" localFKIndex="FA463A18-DE36-B657-BCE5-9E830A84030A" name="ELEC_PRO_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-01-24 23:42:05 UTC</createdTime>
+<ownerDesignName>ModeloSupermercado</ownerDesignName>
+<referredTableLongName>TBL_PRODUCTOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3E2412EC-3F4C-885F-D880-C37A7B409A3E</referredTableID>
+<keyObject>294F92FD-7319-0958-6A60-3835996F066C</keyObject>
+<referredKeyID>294F92FD-7319-0958-6A60-3835996F066C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_PRODUCTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

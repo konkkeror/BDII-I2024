@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE5A55EA-D1FD-FFA5-B083-30BC918C2B2A" name="TBL_ELECTRONICOS">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-01-24 23:40:03 UTC</createdTime>
+<ownerDesignName>ModeloSupermercado</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PRODUCTO" id="074BCCF8-0319-CEBD-8116-8214A0F336AE">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-01-24 23:42:05 UTC</createdTime>
+<ownerDesignName>ModeloSupermercado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B0B3E36-0462-D862-E845-6455C50A8742" referredColumn="AE57747A-3B33-B8A9-ED7F-4FD9600C9F2E"/>
+</associations>
+</Column>
+<Column name="VOLTAJE" id="B85FAF4C-55AF-419C-2619-63935ED504ED">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-01-24 23:41:27 UTC</createdTime>
+<ownerDesignName>ModeloSupermercado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEMORIA" id="11A5B036-D063-2B18-8DB1-3FEDECF1BBF7">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-01-24 23:41:27 UTC</createdTime>
+<ownerDesignName>ModeloSupermercado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AAE59F28-DD08-E7BC-1E41-FBAE16524DAD" name="TBL_ELECTRONICOS_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-01-24 23:43:04 UTC</createdTime>
+<ownerDesignName>ModeloSupermercado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="074BCCF8-0319-CEBD-8116-8214A0F336AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA463A18-DE36-B657-BCE5-9E830A84030A" name="ELEC_PRO_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-01-24 23:42:05 UTC</createdTime>
+<ownerDesignName>ModeloSupermercado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="074BCCF8-0319-CEBD-8116-8214A0F336AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

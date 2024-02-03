@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84F816B8-220D-98B7-A3F2-975EFA6EF891" name="TBL_CATEGORIAS_X_PRODUCTO">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-01-24 23:33:29 UTC</createdTime>
+<ownerDesignName>ModeloSupermercado</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PRODUCTO" id="FF0F83E4-82C9-7E29-FE21-4FE0C2B93BB4">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-01-24 23:35:14 UTC</createdTime>
+<ownerDesignName>ModeloSupermercado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5AED3E1-0DA9-0AEA-D583-E7A7C86FD1A9" referredColumn="AE57747A-3B33-B8A9-ED7F-4FD9600C9F2E"/>
+</associations>
+</Column>
+<Column name="CODIGO_CATEGORIA" id="FE1D7470-230D-12CB-F7A4-DFD46E636597">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-01-24 23:37:00 UTC</createdTime>
+<ownerDesignName>ModeloSupermercado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14282178-29F5-E56A-17EB-2565FBCD83F8" referredColumn="05762214-D768-9AD3-D261-E0B972B7D1E7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76E53837-309F-9CCE-5989-1127540FDA54" name="TBL_CATEGORIAS_X_PRODUCTO_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-01-24 23:38:13 UTC</createdTime>
+<ownerDesignName>ModeloSupermercado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF0F83E4-82C9-7E29-FE21-4FE0C2B93BB4"/>
+<colUsage columnID="FE1D7470-230D-12CB-F7A4-DFD46E636597"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A70F4548-BBA2-EB59-EF25-E347FDC50D7B" name="CAT_X_PRO_PRO_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-01-24 23:35:14 UTC</createdTime>
+<ownerDesignName>ModeloSupermercado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF0F83E4-82C9-7E29-FE21-4FE0C2B93BB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57F735BD-0009-34A3-D3BB-20183987EEEC" name="CAT_X_PRO_CAT_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-01-24 23:37:00 UTC</createdTime>
+<ownerDesignName>ModeloSupermercado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE1D7470-230D-12CB-F7A4-DFD46E636597"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

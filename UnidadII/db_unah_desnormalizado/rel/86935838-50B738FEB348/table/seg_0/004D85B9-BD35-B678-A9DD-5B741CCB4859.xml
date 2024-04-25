@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="004D85B9-BD35-B678-A9DD-5B741CCB4859" name="TBL_TITULOS_X_EMPLEADO">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:43:44 UTC</createdTime>
+<ownerDesignName>db_unah_desnormalizado</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TITULO" id="F2727DE4-1943-6FD1-981C-1EEBD59F5A65">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:44:33 UTC</createdTime>
+<ownerDesignName>db_unah_desnormalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_UNIVERSIDAD" id="F7DBB0EC-C226-6AD2-8A92-357CFC8AD089">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:47:30 UTC</createdTime>
+<ownerDesignName>db_unah_desnormalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="C478748E-798D-DFDC-BDD2-1B3A4FF2F5B3">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:48:41 UTC</createdTime>
+<ownerDesignName>db_unah_desnormalizado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_REGISTRO" id="0B3EBAC5-FD6D-BDB3-E7FE-CD680187745F">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:48:41 UTC</createdTime>
+<ownerDesignName>db_unah_desnormalizado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_TITULO" id="9057D2BC-5755-1996-D2F2-1E7504A3A262">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-03-20 23:28:31 UTC</createdTime>
+<ownerDesignName>db_unah_desnormalizado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_UNIVERSIDAD" id="DA07142E-DC5C-DEBC-C5D8-60679BDB5CBB">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-03-20 23:28:46 UTC</createdTime>
+<ownerDesignName>db_unah_desnormalizado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_EMPLEADO" id="426A1F1C-A69E-772C-B604-2A18CB7B31CA">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-03-20 23:29:05 UTC</createdTime>
+<ownerDesignName>db_unah_desnormalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FE37982-DFE4-E7C6-0A27-443F8D56C0EA" referredColumn="379E0A1E-CA0B-5AFD-E338-B347BCC48478"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="871D2CB5-7B9B-1227-EFB3-F7F620121C3F" name="TBL_TITULOS_X_EMPLEADO_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:45:28 UTC</createdTime>
+<ownerDesignName>db_unah_desnormalizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2727DE4-1943-6FD1-981C-1EEBD59F5A65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D383469F-3BA6-1DEE-2F41-3180F82ECBA6" name="TBL_TIT_X_EMPL_TBL_EMP_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-03-20 23:29:05 UTC</createdTime>
+<ownerDesignName>db_unah_desnormalizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="426A1F1C-A69E-772C-B604-2A18CB7B31CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
